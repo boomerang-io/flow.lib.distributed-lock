@@ -37,10 +37,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.autoconfigure.data.mongo.DataMongoTest;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.test.context.TestPropertySource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataMongoTest
+@TestPropertySource(properties = "spring.mongodb.embedded.version=3.5.5")
 public class SimpleMongoLockTest implements InitializingBean {
 
   @Autowired
