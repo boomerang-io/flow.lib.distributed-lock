@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.github.alturkovic</groupId>
     <artifactId>distributed-lock</artifactId>
-    <version>1.4.8</version>
+    <version>${distributed.lock.version}</version>
   </parent>
 
   <artifactId>distributed-lock-mongo</artifactId>
@@ -31,7 +31,7 @@
     <dependency>
       <groupId>de.flapdoodle.embed</groupId>
       <artifactId>de.flapdoodle.embed.mongo</artifactId>
-      <version>3.4.5</version>
+      <version>3.4.11</version>
       <scope>test</scope>
     </dependency>
     <dependency>
