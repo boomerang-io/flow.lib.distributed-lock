@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.github.alturkovic</groupId>
     <artifactId>distributed-lock</artifactId>
-    <version>1.4.8</version>
+    <version>${distributed.lock.version}</version>
   </parent>
 
   <artifactId>distributed-lock-redis</artifactId>
@@ -31,7 +31,7 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-bootstrap</artifactId>
-      <version>3.1.4</version>
+      <version>3.1.5</version>
       <scope>test</scope>
     </dependency>
     <dependency>
